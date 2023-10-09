@@ -1,8 +1,12 @@
 {
   "name": "drawing-strokes",
   "type": "module",
-  "version": "1.1.0",
-  "description": "A package for describing drawing strokes in web apps.",
+  "version": "1.1.1",
+  "description": "A package for describing drawing strokes in web apps",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandon-otoole/drawing-strokes.git"
+  },
   "main": "src/index.js",
   "author": "Brandon OToole",
   "license": "ISC"
