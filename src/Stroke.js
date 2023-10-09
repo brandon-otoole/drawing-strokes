@@ -53,6 +53,14 @@ class Stroke {
         return JSON.parse(this.toString());
     }
 
+    get length() {
+        return this._path.length;
+    }
+
+    item(index) {
+        return this._path[index];
+    }
+
     get current() {
         return this._path[this._path.length-1];
     }
